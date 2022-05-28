@@ -1,0 +1,87 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+}
+
+main {
+    padding: 5rem;
+    width: 80%;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.content-info {
+    display: flex;
+    height: 40%;
+    width: 100%;
+    gap: 1rem;
+}
+
+.content-info-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+    padding: 2rem;
+    background: #F4F4F4;
+    border-radius: 15px;
+}
+
+.content-info-card h2 {
+    font-weight: 700;
+    font-size: 4rem;
+}
+
+.content-info-card h4 {
+    font-weight: 500;
+    font-size: 2rem;
+}
+
+.content {
+    width: 100%;
+    height: 60%;
+    background: #F4F4F4;
+    border-radius: 15px;
+}
+
+.content-historico {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    height: calc(100% - 4rem);
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2rem;
+}
+
+.content-historico h4 {   
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.historico {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h5 {
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+.container-historico {
+    display: flex;
+    gap: 20rem;
+}
